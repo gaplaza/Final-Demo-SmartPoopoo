@@ -15,7 +15,7 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>firebase_smartpoo</string>
+	<string>SmartPoopoo</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
@@ -26,8 +26,12 @@
 	<string>$(FLUTTER_BUILD_NUMBER)</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSCameraUsageDescription</key>
+	<string>이 앱은 사진 촬영을 위해 카메라를 사용합니다.</string>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>이 앱은 녹음을 위해 마이크를 사용합니다.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>이 앱은 사진을 선택하기 위해 사진 라이브러리에 접근합니다.</string>
 	<key>NSSpeechRecognitionUsageDescription</key>
 	<string>이 앱은 음성 인식을 사용하여 더 나은 사용자 경험을 제공합니다.</string>
 	<key>UIApplicationSupportsIndirectInputEvents</key>

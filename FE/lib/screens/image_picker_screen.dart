@@ -15,6 +15,7 @@ class ImagePickerScreen extends StatefulWidget {
 class ImagePickerScreenState extends State<ImagePickerScreen> {
   final ChatGptService _chatGptService = ChatGptService();
   final FlutterTts flutterTts = FlutterTts(); // TTS 인스턴스 생성
+
   List<String> imageUrls = [
     'https://www.nct.org.uk/sites/default/files/3to4.jpg',
     'https://assets.babycenter.com/ims/2009/09sep/poo01_424x302.jpg'
@@ -25,6 +26,20 @@ class ImagePickerScreenState extends State<ImagePickerScreen> {
   @override
   void initState() {
     super.initState();
+    _initializeTts();
+  }
+
+  Future<void> _initializeTts() async {
+    await flutterTts.setIosAudioCategory(
+        IosTextToSpeechAudioCategory.playback,
+        [
+          IosTextToSpeechAudioCategoryOptions.allowBluetooth,
+          IosTextToSpeechAudioCategoryOptions.allowBluetoothA2DP,
+          IosTextToSpeechAudioCategoryOptions.mixWithOthers,
+          IosTextToSpeechAudioCategoryOptions.defaultToSpeaker
+        ],
+        IosTextToSpeechAudioMode.defaultMode);
+    await flutterTts.setSharedInstance(true);
   }
 
   Future<void> _fetchImageDescription(String imageUrl) async {
@@ -95,7 +110,8 @@ class ImagePickerScreenState extends State<ImagePickerScreen> {
                 children: [
                   Text(
                     imageDescription!,
-                    style: const TextStyle(fontSize: 20),
+                    style:
+                        const TextStyle(fontSize: 20, fontFamily: "Pretendard"),
                   ),
                   const SizedBox(height: 16),
                   // "설명듣기" 버튼

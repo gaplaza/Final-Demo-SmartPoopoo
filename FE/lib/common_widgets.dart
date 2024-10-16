@@ -20,9 +20,10 @@ Widget buildMenuButton(BuildContext context, String title,
       child: Text(
         title,
         style: const TextStyle(
+          fontFamily: "Pretendard",
           color: Colors.white,
-          fontSize: 40,
-          fontWeight: FontWeight.bold,
+          fontSize: 41,
+          fontWeight: FontWeight.w700,
         ),
       ),
     ),

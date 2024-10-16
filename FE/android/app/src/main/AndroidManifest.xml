@@ -5,7 +5,7 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
     
     <application
-        android:label="firebase_smartpoo"
+        android:label="SmartPoopoo"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

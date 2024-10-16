@@ -254,14 +254,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.18.0"
-  computer:
-    dependency: transitive
-    description:
-      name: computer
-      sha256: "34176c612a02ebf3e5eaa3e9b40e2b1df495043c46614999639d19e66823232d"
-      url: "https://pub.dev"
-    source: hosted
-    version: "3.2.1"
   convert:
     dependency: transitive
     description:
@@ -517,6 +509,22 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.2"
+  google_mlkit_commons:
+    dependency: transitive
+    description:
+      name: google_mlkit_commons
+      sha256: "42173a8ba89f386486cc5b8249e84da4a4b861daa70498373627d985eb418689"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.5.0"
+  google_mlkit_object_detection:
+    dependency: "direct main"
+    description:
+      name: google_mlkit_object_detection
+      sha256: "52b11c335cbf45da561127de586e1ab32ba5526eb04d7a3a683c787279a47153"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.10.0"
   graphs:
     dependency: transitive
     description:
@@ -782,7 +790,7 @@ packages:
     source: hosted
     version: "2.1.0"
   path:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: path
       sha256: "087ce49c3f0dc39180befefc60fdb4acd8f8620e5682fe2476afd0b3688bb4af"
@@ -949,14 +957,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.3.0"
-  pytorch_lite:
-    dependency: "direct main"
-    description:
-      name: pytorch_lite
-      sha256: ff543a07d2c4fb9600827256b6c12b40b05ff64cf1cecb3ef50cfe97923cb8f8
-      url: "https://pub.dev"
-    source: hosted
-    version: "4.2.7"
   rxdart:
     dependency: transitive
     description:
