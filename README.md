@@ -40,7 +40,7 @@ YOLO와 Multimodal LLM을 활용하여 아기 변 분류를 기반으로 건강 
 
 2. **iOS 프로젝트 열기**: `ios` 폴더를 우클릭하여 **Open in Xcode**를 선택합니다.  
 3. **Signing & Capabilities 설정**:
-   - 좌측 **Runner → Signing & Capabilities → TARGETS**에서 **Team**과 **Bundle Identifier**를 올바르게 설정합니다.
+   - Xcode 좌측 사이드바에서 **Runner → Signing & Capabilities → TARGETS**에서 **Team**과 **Bundle Identifier**를 올바르게 설정합니다.
 
 ---
 
