@@ -53,4 +53,4 @@ YOLO와 Multimodal LLM을 활용하여 아기 변 분류를 기반으로 건강 
 ---
 
 ## 오픈소스 활용
-1. ChatGPT API - 챗봇, 이미지 분석
+1. OpenAI API - 챗봇, 이미지 분석
