@@ -15,9 +15,11 @@ YOLO와 Multimodal LLM을 활용하여 아기 변 분류를 기반으로 건강 
 ## 실행 방법
 ### 1. 필수 프로그램 설치
 1. **IDE 설치**: Visual Studio Code(또는 다른 IDE)와 Xcode를 설치합니다.  
-2. **확장 프로그램 설치**: VS Code에서 Flutter와 Dart 확장 프로그램을 설치합니다.  
-   <img width="300" alt="Flutter Extension" src="https://github.com/user-attachments/assets/12d70ccd-4da4-493d-a7d4-813bff27c005" />
-   <img width="300" alt="Dart Extension" src="https://github.com/user-attachments/assets/d43154cd-e8a2-43d8-9f1a-650844a0e3a3" />
+2. **확장 프로그램 설치**: VS Code에서 Flutter와 Dart 확장 프로그램을 설치합니다.
+
+   ![Flutter Extension](https://github.com/user-attachments/assets/12d70ccd-4da4-493d-a7d4-813bff27c005)
+
+   ![Dart Extension](https://github.com/user-attachments/assets/d43154cd-e8a2-43d8-9f1a-650844a0e3a3)
 
 ---
 
@@ -26,13 +28,16 @@ YOLO와 Multimodal LLM을 활용하여 아기 변 분류를 기반으로 건강 
    애뮬레이터는 실시간 객체 탐지 카메라 기능을 지원하지 않으므로 **아이폰을 유선으로 연결**합니다.  
 2. **개발자 모드 활성화**:  
    아이폰에서 **설정 → 개인정보 보호 및 보안 → 개발자 모드**를 활성화합니다.  
-   <img width="300" alt="개발자 모드 활성화" src="https://github.com/user-attachments/assets/4b18d801-38f3-4e97-8e56-3ae0351f7bec" />
+
+   ![개발자 모드 활성화](https://github.com/user-attachments/assets/4b18d801-38f3-4e97-8e56-3ae0351f7bec)
 
 ---
 
 ### 3. Xcode 설정
-1. 유선으로 연결된 아이폰이 `device 목록`에 표시되는지 확인합니다.
-   <img width="300" alt="스크린샷 2024-12-17 오후 12 36 13" src="https://github.com/user-attachments/assets/5550da83-8498-4118-92a5-16c83c124379" />
+1. 유선으로 연결된 아이폰이 `device 목록`에 표시되는지 확인합니다.  
+
+   ![Device 목록](https://github.com/user-attachments/assets/5550da83-8498-4118-92a5-16c83c124379)
+
 2. **iOS 프로젝트 열기**: `ios` 폴더를 우클릭하여 **Open in Xcode**를 선택합니다.  
 3. **Signing & Capabilities 설정**:
    - 좌측 **Runner → Signing & Capabilities → TARGETS**에서 **Team**과 **Bundle Identifier**를 올바르게 설정합니다.
