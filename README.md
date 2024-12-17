@@ -31,7 +31,8 @@ YOLO와 Multimodal LLM을 활용하여 아기 변 분류를 기반으로 건강 
 ---
 
 ### 3. Xcode 설정
-1. 유선으로 연결된 아이폰이 `device 목록`에 표시되는지 확인합니다.  
+1. 유선으로 연결된 아이폰이 `device 목록`에 표시되는지 확인합니다.
+   <img width="300" alt="스크린샷 2024-12-17 오후 12 36 13" src="https://github.com/user-attachments/assets/5550da83-8498-4118-92a5-16c83c124379" />
 2. **iOS 프로젝트 열기**: `ios` 폴더를 우클릭하여 **Open in Xcode**를 선택합니다.  
 3. **Signing & Capabilities 설정**:
    - 좌측 **Runner → Signing & Capabilities → TARGETS**에서 **Team**과 **Bundle Identifier**를 올바르게 설정합니다.
@@ -47,5 +48,5 @@ YOLO와 Multimodal LLM을 활용하여 아기 변 분류를 기반으로 건강 
 ---
 
 ## 주의사항
-- **실제 기기**를 사용해야 실시간 객체 탐지 카메라 기능이 작동합니다.
-- iPhone 사용자는 반드시 **개발자 모드**를 활성화해야 합니다.
+- **실제 기기**를 사용해야 실시간 객체 탐지 카메라가 작동합니다.
+- 반드시 **개발자 모드**를 활성화해야 합니다.
